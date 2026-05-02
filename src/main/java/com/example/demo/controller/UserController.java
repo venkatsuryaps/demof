@@ -16,7 +16,7 @@ import com.example.demo.model.User;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://demos-ptb5.vercel.app/")
 public class UserController {
 
     private List<User> users = new ArrayList<>();
